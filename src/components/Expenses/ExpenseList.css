@@ -1,0 +1,10 @@
+h2 {
+  color: rgba(245, 245, 245, 0.788);
+  text-align: center;
+}
+ul {
+  background-color: black;
+}
+.not-found {
+  padding: 5px;
+}

@@ -1,0 +1,56 @@
+.expense-form {
+  width: 50rem;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 12px;
+  padding: 1rem;
+  /* border: 4px solid white; */
+  background-color: rgb(148, 120, 224);
+}
+
+form div,
+label {
+  background-color: rgb(148, 120, 224);
+}
+
+.form-inputs {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+form input {
+  background-color: white;
+  height: 2rem;
+  width: 22rem;
+  border-radius: 5px;
+  margin: 3px 10px;
+  max-width: 100%;
+  padding: 0 5px;
+}
+.form-submit {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.form-submit button {
+  background-color: rgb(59, 29, 83);
+  width: 8rem;
+  height: 3.5rem;
+  border-radius: 12px;
+  color: whitesmoke;
+  margin-top: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.form-inputs label {
+  font-size: 1.3rem;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: 5px 10px;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+  max-width: 95%;
+}
