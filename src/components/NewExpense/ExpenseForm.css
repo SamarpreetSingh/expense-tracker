@@ -23,7 +23,7 @@ form input {
   background-color: white;
   height: 2rem;
   width: 22rem;
-  border-radius: 5px;
+  border-radius: 8px;
   margin: 3px 10px;
   max-width: 100%;
   padding: 0 5px;
@@ -36,10 +36,11 @@ form input {
 .form-submit button {
   background-color: rgb(59, 29, 83);
   width: 8rem;
-  height: 3.5rem;
+  height: 3rem;
   border-radius: 12px;
   color: whitesmoke;
   margin-top: 20px;
+  margin-left: 5px;
   font-size: 1rem;
   cursor: pointer;
 }
@@ -53,4 +54,21 @@ form input {
   display: flex;
   flex-direction: column;
   max-width: 95%;
+}
+
+.open-btn {
+  background-color: rgb(59, 29, 83);
+  width: 10rem;
+  height: 3rem;
+  border-radius: 12px;
+  color: whitesmoke;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.open-div {
+  text-align: center;
+  background-color: rgb(148, 120, 224);
 }

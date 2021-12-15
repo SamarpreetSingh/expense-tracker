@@ -1,0 +1,26 @@
+.chart-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 90%;
+  border-radius: 12px;
+  background-color: rgb(253, 185, 244);
+  width: 1.3rem;
+}
+.inner {
+  background-color: rgb(167, 170, 228);
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.fill {
+  /* background-color: blueviolet; */
+  background-color: rgb(119, 89, 202);
+  height: 100%;
+  border-radius: 12px;
+}
+.chart-label {
+  background-color: rgb(253, 205, 247);
+}

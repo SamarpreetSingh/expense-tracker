@@ -1,39 +1,40 @@
-.expense-filter{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    width: 50rem;
-    margin: 20px auto;
-    max-width: 90%;
-    border-radius: 12px;
+.expense-filter {
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  width: 50rem;
+  margin: 10px auto;
+  max-width: 90%;
+  margin-bottom: 40px;
+  border-radius: 12px;
 }
-.top{
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.top {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.top p{
-    background-color: black;
-    color: whitesmoke;
-    font-size: 1.1rem;
+.top p {
+  background-color: black;
+  color: whitesmoke;
+  font-size: 1.1rem;
 }
-.select-year{
-    width: 7rem;
-    height: 2rem;
-    background-color: whitesmoke;
-    text-align: center;
-    border-radius: 12px;
-    font-weight: bold;
+.select-year {
+  width: 7rem;
+  height: 2rem;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: bold;
 }
-.select-year option{
-    background-color: whitesmoke;
+.select-year option {
+  background-color: whitesmoke;
 }
 .months {
-    height: 10rem;
-    margin: 10px 0;
-    background-color: rgb(235, 189, 255);
-    border-radius: 12px;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
+  height: 10rem;
+  margin: 10px 0;
+  background-color: rgb(235, 189, 255);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
 }
